@@ -1,0 +1,108 @@
+body {
+  color: lime;
+  margin-top: 5vw;
+  text-align: left;
+  font-family: "arial";
+  font-size: 1.3em;
+  background-color: rgb(25, 25, 25);
+  margin: 0px;
+}
+
+main {
+  text-align: center;
+  border: 6px solid lime;
+  padding: 3vw;
+  margin: 15%;
+  margin-top: 60px;
+}
+
+/* Start Nav-Bar*/
+nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 50px;
+  border-right: 0.5px solid white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: lightslategray;
+}
+
+nav .active {
+  background-color: #04aa6d;
+}
+
+nav .active:hover {
+  background-color: #609e87;
+}
+
+/* End Nav-Bar */
+
+/* Start Button */
+main a:link,
+main a:visited {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border: 4px solid lime;
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+main a:hover,
+main a:active {
+  background-color: green;
+  color: white;
+}
+/* End Button */
+
+table,
+th,
+td {
+  border: 2px solid lime;
+  border-collapse: collapse;
+}
+
+main section img {
+  display: inline;
+  width: 49%;
+}
+
+/* Start Mobile*/
+@media (max-width: 590px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  nav {
+    flex-direction: column;
+    font-size: 1.3em;
+  }
+
+  nav a {
+    padding: 10px;
+  }
+
+  main {
+    margin: 5%;
+    margin-top: 250px;
+  }
+
+  main section img {
+    display: flex;
+    width: 100%;
+  }
+}
+/* End Mobile */
