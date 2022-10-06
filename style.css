@@ -93,6 +93,7 @@ main section img {
 
   nav a {
     padding: 10px;
+    border-right: 0px;
   }
 
   main {
