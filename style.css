@@ -129,5 +129,9 @@ main section img {
     display: flex;
     width: 100%;
   }
+
+  .dropdown-content {
+    min-width: 145px;
+  }
 }
 /* End Mobile */
