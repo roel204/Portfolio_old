@@ -28,7 +28,9 @@
     <a href="mailto:roelhoogendoorn01369@gmail.com" target="_blank">Gmail</a>
     <a href="https://discord.com/users/430781219236478977" target="_blank">Discord</a>
   </main>
+
   <form>
+    <h2>Ask me a question</h2>
     <div class="formfield">
       <label for="firstname">First Name:</label>
       <input type="text" name="firstname" id="firstname" placeholder="First" required>
@@ -62,12 +64,13 @@
       <label for="question">My Question:</label>
       <input type="text" name="question" id="question" required>
     </div>
-    <div class="formfield">
+    <div class="formcheck">
       <label for="agreement">I agree.</label>
       <input type="checkbox" name="agreement" id="agreement" required>
     </div>
     <div class="formfield">
-      <button type="submit">Submit</button>
+      <button type="submit"
+        onclick="alert('Thanks for asking me a question, but right now the form is disabled. Please contact me trough the buttons above.')">Submit</button>
       <input type="reset">
     </div>
   </form>

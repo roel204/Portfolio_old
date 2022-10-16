@@ -12,8 +12,10 @@ main {
   text-align: center;
   border: 6px solid lime;
   padding: 3vw;
-  margin: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 60px;
+  margin-bottom: 5%;
 }
 
 /* Start Dropdown*/
@@ -131,9 +133,18 @@ label {
   flex-direction: row;
 }
 
+.formcheck {
+  display: flex;
+  flex-direction: row;
+}
+
 button {
   margin-left: 10vw;
   width: 80%;
+}
+
+form h2 {
+  text-align: center;
 }
 /* End Form */
 
