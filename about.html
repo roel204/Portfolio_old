@@ -31,20 +31,44 @@
   <form>
     <div class="formfield">
       <label for="firstname">First Name:</label>
-      <input type="text" name="firstname" id="firstname" required>
+      <input type="text" name="firstname" id="firstname" placeholder="First" required>
     </div>
     <div class="formfield">
       <label for="lastname">Last Name:</label>
-      <input type="text" name="lastname" id="lastname" required>
+      <input type="text" name="lastname" id="lastname" placeholder="Last" required>
     </div>
     <div class="formfield">
-      <label for="preferchat">Prefer to chat with:</label>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="name@mail.com">
+    </div>
+    <div class="formfield">
       <label for="discord">Discord:</label>
-      <input type="radio" name="preferchat" id="discord">
-      <label for="mail">Mail:</label>
-      <input type="radio" name="preferchat" id="mail">
-      <label for="whatsapp">whatsapp:</label>
-      <input type="radio" name="preferchat" id="whatsapp">
+      <input type="text" name="discord" id="discord" placeholder="Name#1234">
+    </div>
+    <div class="formfield">
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{2} [0-9]{8}" placeholder="06 12345678">
+    </div>
+    <div class="formfield">
+      <label for="replychat">Prefer reply with:</label>
+      <select name="replychat" id="replychat" required>
+        <option disabled selected>Choose an option</option>
+        <option value="email">Email</option>
+        <option value="discord">Discord</option>
+        <option value="whatsapp">Whatsapp</option>
+      </select>
+    </div>
+    <div class="formfield">
+      <label for="question">My Question:</label>
+      <input type="text" name="question" id="question" required>
+    </div>
+    <div class="formfield">
+      <label for="agreement">I agree.</label>
+      <input type="checkbox" name="agreement" id="agreement" required>
+    </div>
+    <div class="formfield">
+      <button type="submit">Submit</button>
+      <input type="reset">
     </div>
   </form>
 </body>

@@ -103,6 +103,40 @@ nav .active:hover {
 
 /* End Nav-Bar */
 
+/* Start Form*/
+
+form {
+  border: 6px solid lime;
+  padding: 3vw;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 35%;
+}
+
+label {
+  display: flex;
+  width: 20vw;
+  padding-left: 10vw;
+}
+
+.formfield {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  margin-left: 10vw;
+  width: 80%;
+}
+/* End Form */
+
 /* Start Mobile*/
 @media (max-width: 590px) {
   body {
