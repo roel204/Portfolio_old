@@ -4,18 +4,23 @@ body {
   text-align: left;
   font-family: "arial";
   font-size: 1.3em;
-  background-color: rgb(25, 25, 25);
+  background-color: rgb(30, 30, 30);
   margin: 0px;
 }
 
 main {
   text-align: center;
   border: 6px solid lime;
+  background-color: rgb(22, 22, 22);
   padding: 3vw;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 60px;
   margin-bottom: 5%;
+}
+
+#diploma {
+  width: 100%;
 }
 
 /* Start Dropdown*/
@@ -61,6 +66,12 @@ main a:active {
 }
 /* End Button */
 
+/* Start Table */
+
+table {
+  width: 100%;
+}
+
 table,
 th,
 td {
@@ -72,6 +83,20 @@ main section img {
   display: inline;
   width: 49%;
 }
+
+#game {
+  width: 25%;
+}
+
+#time {
+  width: 15%;
+}
+
+#story {
+  width: 60%;
+}
+
+/* End Table*/
 
 /* Start Nav-Bar*/
 nav {
@@ -103,12 +128,18 @@ nav .active:hover {
   background-color: #609e87;
 }
 
+#logo {
+  width: 20px;
+  height: 20px;
+}
+
 /* End Nav-Bar */
 
 /* Start Form*/
 
 form {
   border: 6px solid lime;
+  background-color: rgb(22, 22, 22);
   padding: 3vw;
   margin-left: 15%;
   margin-right: 15%;
@@ -146,9 +177,13 @@ button {
 form h2 {
   text-align: center;
 }
+
+form label p {
+  color: red;
+}
 /* End Form */
 
-/* Start Mobile*/
+/* Start Mobile */
 @media (max-width: 590px) {
   body {
     font-size: 0.9em;
