@@ -140,9 +140,9 @@ nav .active:hover {
 form {
   border: 6px solid lime;
   background-color: rgb(22, 22, 22);
-  padding: 3vw;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 5%;
 }
 
 input,
@@ -150,13 +150,15 @@ select,
 button {
   padding: 10px;
   margin: 10px;
-  width: 35%;
+  width: 50%;
+  height: 50px;
+  box-sizing: border-box;
 }
 
 label {
   display: flex;
   width: 20vw;
-  padding-left: 10vw;
+  padding-left: 10%;
 }
 
 .formfield {
@@ -164,14 +166,13 @@ label {
   flex-direction: row;
 }
 
-.formcheck {
-  display: flex;
-  flex-direction: row;
+button {
+  margin-left: 10%;
+  width: 80%;
 }
 
-button {
-  margin-left: 10vw;
-  width: 80%;
+#reset {
+  margin-right: 10%;
 }
 
 form h2 {
@@ -211,6 +212,11 @@ form label p {
 
   .dropdown-content {
     min-width: 145px;
+  }
+
+  form {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 /* End Mobile */
