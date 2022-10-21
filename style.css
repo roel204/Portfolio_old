@@ -23,6 +23,11 @@ main {
   width: 100%;
 }
 
+main section img {
+  display: inline;
+  width: 49%;
+}
+
 /* Start Dropdown*/
 .dropdown {
   display: inline-block;
@@ -77,11 +82,6 @@ th,
 td {
   border: 2px solid lime;
   border-collapse: collapse;
-}
-
-main section img {
-  display: inline;
-  width: 49%;
 }
 
 #game {
