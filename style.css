@@ -28,6 +28,10 @@ main #baylee img {
   width: 49%;
 }
 
+h2 {
+  margin-top: 60px;
+}
+
 /* Start Dropdown*/
 .dropdown {
   display: inline-block;
@@ -143,6 +147,7 @@ form {
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 5%;
+  padding-bottom: 20px;
 }
 
 input,
