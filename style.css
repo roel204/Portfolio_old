@@ -245,8 +245,8 @@ form label p {
     margin-top: 250px;
   }
 
-  main section img {
-    display: flex;
+  main #baylee img {
+    display: inline;
     width: 100%;
   }
 
