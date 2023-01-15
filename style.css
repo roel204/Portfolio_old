@@ -39,6 +39,11 @@ main #baylee img {
   border: 1px solid lime;
 }
 
+.printer {
+  border: 1px solid lime;
+  width: 50%;
+}
+
 h2 {
   margin-top: 60px;
 }
