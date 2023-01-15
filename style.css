@@ -19,6 +19,13 @@ main {
   margin-bottom: 5%;
 }
 
+img {
+  width: 100%;
+  border: 1px solid lime;
+}
+
+
+
 #diploma {
   width: 100%;
   border: 1px solid lime;
