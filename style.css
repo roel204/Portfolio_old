@@ -21,10 +21,12 @@ main {
 
 img {
   width: 100%;
-  border: 1px solid lime;
 }
 
-
+.project1 {
+  border: 1px solid lime;
+  margin-bottom: 5%;
+}
 
 #diploma {
   width: 100%;
