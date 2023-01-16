@@ -28,6 +28,10 @@ img {
   margin-bottom: 5%;
 }
 
+.project1 p {
+  margin: 2%;
+}
+
 #diploma {
   width: 100%;
   border: 1px solid lime;
