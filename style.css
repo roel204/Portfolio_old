@@ -1,11 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: lime;
   text-align: left;
   font-family: "arial", serif;
   font-size: 1.3em;
   background-color: rgb(30, 30, 30);
-  margin: 0;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -14,6 +21,7 @@ main {
   background-color: rgb(22, 22, 22);
   padding: 3vw;
   margin: 60px 15% 5%;
+  flex: 1;
 }
 
 img {
@@ -54,10 +62,10 @@ footer {
   text-align: center;
   padding: 5px;
   border-top: 1px solid lime;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 /* Start Dropdown*/
